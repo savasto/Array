@@ -12,7 +12,7 @@ public class Main {
         int[] numeros = new int[6];
 
         Scanner sc = new Scanner(System.in);
-        for (int i = 0; i < 5; i++) { // ir pediendo 6 numeros
+        for (int i = 0; i < 6; i++) { // ir pediendo 6 numeros cambio 5 por 6
             System.out.println("Print numero "+ i);
             int numero = sc.nextInt();// leemos el numero
             numeros [i] = numero;// guardamos en la posicio i
