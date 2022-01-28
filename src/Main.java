@@ -18,7 +18,7 @@ public class Main {
             numeros [i] = numero;// guardamos en la posicio i
         }
 
-        for (int i = numeros.length-1; i >= 0; i--) {
+        for (int i = numeros.length-1; i >= 0; i--) {// bucle
             System.out.println (numeros[i]);
 
         }
